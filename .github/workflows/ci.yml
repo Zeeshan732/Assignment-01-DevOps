@@ -22,5 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
-        run: npx jest
+        - name: Run tests
+        run: npx --yes jest
